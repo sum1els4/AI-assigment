@@ -5,7 +5,6 @@ This project is a text summarization application that provides functionalities t
 ## Project Structure
 
 The project is organized as follows:
-
 ```
 text-summarization-app
 ├── src
@@ -42,7 +41,7 @@ text-summarization-app
 ## Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/yourusername/text-summarization-app.git
    cd text-summarization-app
    ```
@@ -54,10 +53,9 @@ text-summarization-app
 
 ## Usage
 
-1. Run the application:
-   ```
-   python src/app.py
-   ```
+1. Set the Python path to include the `src` directory:
+   ```bash
+   export PYTHONPATH=$(pwd)/src  # On Windows: set PYTHONPATH=%cd%\src
 
 2. Upload a PDF or TXT file for summarization through the application interface.
 
