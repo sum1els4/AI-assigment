@@ -1,0 +1,12 @@
+flask
+nltk
+gensim
+transformers
+beautifulsoup4
+requests
+scikit-learn
+pandas
+numpy
+PyPDF2
+rouge-score
+bleu-score
